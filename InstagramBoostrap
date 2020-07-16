@@ -1,0 +1,263 @@
+index.html������������������������������������������������������������������������������������������000644 �101065 �101065 �00000025444 13704130327 011264 �0����������������������������������������������������������������������������������������������������ustar�00����������������������������������������������������������������000000 �000000 ������������������������������������������������������������������������������������������������������������������������������������������������������������������������<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Bootstrap Necesario -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <title>Insta Feed</title>
+        <script src="https://kit.fontawesome.com/2f69db6243.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <!-- Fontawesome Necesario -->
+       <script src="https://kit.fontawesome.com/2f69db6243.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+    <!-- Header insta -->
+        <nav class="navbar navbar-light bg-secondary">
+            <a class="navbar-brand text-light" href="#">
+                <i class="fa fa-instagram d-inline-block align-top" style="font-size:30px" alt=""></i>
+                <i><b>Instagram</b></i>
+            </a>
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Crear nuevo post
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Nuevo Post</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Cargar foto aqui
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Publicar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+        </nav>
+    <!-- Header insta -->
+
+<p></p>
+
+        <!-- Pildoras -->
+        <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"><i class="fas fa-th"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false"><i class="fas fa-square"></i></a>
+            </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+            <!-- Feed1 -->
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            
+            <!-- Contenido Feed1 -->
+
+
+          <div class="card-deck d-flex flex-wrap">
+                <div class="card">
+                    <img src="https://amayei.nyc3.digitaloceanspaces.com/2019/10/58e336b26ee69cbfb21d906c57b8ac8f9cb53bdf.jpg" class="card-img-top imagenes" alt="...">
+                
+                </div>
+
+                <div class="card">
+                    <img src="https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/5b755a235cafe886f57f0c61/golden-cachorro_0.jpg" class="card-img-top imagenes" alt="...">
+                </div>
+
+                <div class="card">
+                    <img src="https://www.venezuelatuya.com/natura/imagenes/047chiguire3.jpg" class="card-img-top" alt="...">
+                </div>
+
+            <div class="card-deck d-flex flex-wrap">
+
+                <div class="card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Cochranella_spinosa.jpg/1200px-Cochranella_spinosa.jpg" class="card-img-top imagenes" alt="...">
+                </div>
+
+                <div class="card">
+                    <img src="https://www.caracteristicas.co/wp-content/uploads/2017/02/pato-2-e1560917879703.jpg" class="card-img-top imagenes" alt="...">
+                </div>
+
+                <div class="card">
+                    <img src="https://www.elindependiente.com/wp-content/uploads/2019/08/dia-gato.jpg" class="card-img-top imagenes" alt="...">
+                </div>
+
+            </div>
+
+            </div>
+
+            </div>
+
+
+            <!-- Feed2 -->
+             <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+            
+             <!-- Contenido Feed2 -->
+                <div class="d-flex flex-column">
+
+                <div class="card mb-5" style="width: 25rem;">
+                   <div class="perfil"> <i class="fab fa-html5 pic"></i><div><p class="card-text"><b>HTML5</b><br>Rigoberto</p><i class="fas fa-ellipsis-v dots"></i></div></div>
+                    <img class="card-img-top" src="https://amayei.nyc3.digitaloceanspaces.com/2019/10/58e336b26ee69cbfb21d906c57b8ac8f9cb53bdf.jpg" alt="Card image cap">
+                    <div class="card-body">
+                       <i class="far fa-heart pr-1 icons"></i><i class="far fa-comment pr-1 icons"></i><i class="far fa-paper-plane icons"></i> <i class="far fa-bookmark icons book"></i> <p>Liked by <b>4GeeksAcademy</b>, <b>html5</b>, <b>Web</b> and <b>100.000</b> others</p> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus architecto nihil consequatur? Quas, facilis nam.</p>
+                    </div>
+                </div>
+
+                <div class="card mb-5" style="width: 25rem;">
+                   <div class="perfil"> <i class="fab fa-html5 pic"></i><div><p class="card-text"><b>HTML5</b><br>ElpanaMiguel</p><i class="fas fa-ellipsis-v dots"></i></div></div>
+                    <img class="card-img-top" src="https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/5b755a235cafe886f57f0c61/golden-cachorro_0.jpg" alt="Card image cap">
+                    <div class="card-body">
+                       <i class="far fa-heart pr-1 icons"></i><i class="far fa-comment pr-1 icons"></i><i class="far fa-paper-plane icons"></i> <i class="far fa-bookmark icons book"></i> <p>Liked by <b>4GeeksAcademy</b>, <b>html5</b>, <b>Web</b> and <b>100.000</b> others</p> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus architecto nihil consequatur? Quas, facilis nam.</p>
+                    </div>
+                </div>
+
+                <div class="card mb-5" style="width: 25rem;">
+                   <div class="perfil"> <i class="fab fa-html5 pic"></i><div><p class="card-text"><b>HTML5</b><br>Mauro</p><i class="fas fa-ellipsis-v dots"></i></div></div>
+                    <img class="card-img-top" src="https://www.venezuelatuya.com/natura/imagenes/047chiguire3.jpg" alt="Card image cap">
+                    <div class="card-body">
+                       <i class="far fa-heart pr-1 icons"></i><i class="far fa-comment pr-1 icons"></i><i class="far fa-paper-plane icons"></i> <i class="far fa-bookmark icons book"></i> <p>Liked by <b>4GeeksAcademy</b>, <b>html5</b>, <b>Web</b> and <b>100.000</b> others</p> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus architecto nihil consequatur? Quas, facilis nam.</p>
+                    </div>
+                </div>
+
+                <div class="card mb-5" style="width: 25rem;">
+                   <div class="perfil"> <i class="fab fa-html5 pic"></i><div><p class="card-text"><b>HTML5</b><br>Jonathansito</p><i class="fas fa-ellipsis-v dots"></i></div></div>
+                    <img class="card-img-top" src="https://www.elindependiente.com/wp-content/uploads/2019/08/dia-gato.jpg" alt="Card image cap">
+                    <div class="card-body">
+                       <i class="far fa-heart pr-1 icons"></i><i class="far fa-comment pr-1 icons"></i><i class="far fa-paper-plane icons"></i> <i class="far fa-bookmark icons book"></i> <p>Liked by <b>4GeeksAcademy</b>, <b>html5</b>, <b>Web</b> and <b>100.000</b> others</p> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus architecto nihil consequatur? Quas, facilis nam.</p>
+                    </div>
+                </div>
+
+                <div class="card mb-5" style="width: 25rem;">
+                   <div class="perfil"> <i class="fab fa-html5 pic"></i><div><p class="card-text"><b>HTML5</b><br>Marquito</p><i class="fas fa-ellipsis-v dots"></i></div></div>
+                    <img class="card-img-top" src="https://www.caracteristicas.co/wp-content/uploads/2017/02/pato-2-e1560917879703.jpg" alt="Card image cap">
+                    <div class="card-body">
+                       <i class="far fa-heart pr-1 icons"></i><i class="far fa-comment pr-1 icons"></i><i class="far fa-paper-plane icons"></i> <i class="far fa-bookmark icons book"></i> <p>Liked by <b>4GeeksAcademy</b>, <b>html5</b>, <b>Web</b> and <b>100.000</b> others</p> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus architecto nihil consequatur? Quas, facilis nam.</p>
+                    </div>
+                </div>
+
+                <div class="card mb-5" style="width: 25rem;">
+                   <div class="perfil"> <i class="fab fa-html5 pic"></i><div><p class="card-text"><b>HTML5</b><br>Pepe</p><i class="fas fa-ellipsis-v dots"></i></div></div>
+                    <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Cochranella_spinosa.jpg/1200px-Cochranella_spinosa.jpg" alt="Card image cap">
+                    <div class="card-body">
+                       <i class="far fa-heart pr-1 icons"></i><i class="far fa-comment pr-1 icons"></i><i class="far fa-paper-plane icons"></i> <i class="far fa-bookmark icons book"></i> <p>Liked by <b>4GeeksAcademy</b>, <b>html5</b>, <b>Web</b> and <b>100.000</b> others</p> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus architecto nihil consequatur? Quas, facilis nam.</p>
+                    </div>
+                </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <!-- Pildoras -->
+        
+
+        <!-- Bootstrap Necesario -->
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <!-- Bootstrap Necesario -->
+    </body>
+</html>����������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������style.css�������������������������������������������������������������������������������������������000644 �101065 �101065 �00000002265 13704130735 011140 �0����������������������������������������������������������������������������������������������������ustar�00����������������������������������������������������������������000000 �000000 ������������������������������������������������������������������������������������������������������������������������������������������������������������������������.nav-pills .nav-link.active, .nav-pills .show > .nav-link
+{
+    color: #fff;
+    background-color: gray;
+}
+
+a 
+{
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+    color: gray;
+}
+
+.icons
+{
+    font-size: 25px;
+}
+
+.pic
+{
+    float: left;
+    font-size: 30px;
+}
+.perfil
+{
+    padding-top: 5px;
+    padding-left: 10px;
+    display:inline-block;
+}
+
+body
+{
+    background-color: rgb(211, 210, 210);
+}
+
+.dots
+{
+    padding-top: 5px;
+    padding-right: 10px;
+    float: right;
+    display: inline-block;
+    font-size: 25px;
+}
+
+.card-text
+{
+    display:inline-block;
+    line-height: 1;
+    font-size: 15px;
+}
+
+.book
+{
+    position: relative;
+    left: 250px;
+}
+
+.card
+{
+    margin: auto;
+}
+
+.card-img, .card-img-bottom, .card-img-top {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 100%;
+    height: 400px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: green;
+    border-color: green;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: green;
+    border-color: white;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    color: #fff;
+    background-color: green;
+    border-color: green;
+    box-shadow: 0 0 0 .2rem rgba(38,143,255,.5);�����������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������
